@@ -2,19 +2,6 @@ const fs = require("fs");
 
 const dayeight = () => {
 
-  const mapping = {
-    "acedgfb": 8,
-    "cdfbe": 5,
-    "gcdfa": 2,
-    "fbcad": 3,
-    "dab": 7,
-    "cefabd": 9,
-    "cdfgeb": 6,
-    "eafb": 4,
-    "cagedb": 0,
-    "ab": 1,
-  }
-
   const getOutput = (data) => data.split("| ")[1]
   const getInput = (data) => data.split(" |")[0]
 
